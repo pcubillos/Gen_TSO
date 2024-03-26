@@ -51,7 +51,7 @@ configuration.  Components on the right-hand side show the ouptuts,
 including the target's FOV and spectra (stellar SED and
 transit/eclipse depth), the instrumental throughput curves, and
 time-series simulation. \label{fig:gen_tso_gui}]
-(gen_tso_screen.png){width=100%}
+(gen_tso_gui.png){width=100%}
 
 
 # Statement of Need
