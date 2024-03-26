@@ -58,11 +58,11 @@ instrument and detector.
 ![Gen TSO graphical user interface.  Components on the left hand-side are user inputs to define the target properties and instrument configuration.  Components on the right-hand side show the ouptuts, including the target's FOV and spectra (stellar SED and transit/eclipse depth), the instrumental throughput curves, and time-series simulation. \label{fig:gen_tso_gui}](gen_tso_gui){width=100%}
 
 
-On the bottom left panel (Target), the user sets the astrophysical
-properties of the observing scene.  An input select menu allows the
-user to search for known (planets) and automate setting the system
-properties once a target is selected.  The target information is taken
-from the [NASA Exoplanet
+On the bottom left panel (Target panel), the user sets the
+astrophysical properties of the observing scene.  An input select menu
+allows the user to search for known targets and automate setting the
+system properties once a target is selected.  The target information
+is taken from the [NASA Exoplanet
 Archive](https://exoplanetarchive.ipac.caltech.edu).  Hyperlinks and
 display notifications help the user to access the targets' NASA
 Archive website, indicate whether it has previous JWST observations,
@@ -74,15 +74,15 @@ or eclipse model spectra to simulate as a JWST observation.  SEDs and
 depth spectra can be displayed and compared on the right output panel.
 
 The panel to the right, is where the user configures the observation
-(Detector setup).  These include the dispersers, filters, subarray,
-readout pattern, groups, and integration settings.  The throughput
-curves of these settings are instantly displayed on the right output
-panel.  More importantly, at any time, Gen TSO displays the exposure
-time corresponding to the current detector settings.  With a button
-click the user can calculate the saturation level for the given scene
-and detector, allowing one to set the right number of groups.
-Similarly, a switch automatically adjusts the number of integrations
-to match the observation duration.
+(Detector setup panel).  These include the dispersers, filters,
+subarray, readout pattern, groups, and integration settings.  The
+throughput curves of these settings are instantly displayed on the
+right output panel.  More importantly, at any time, Gen TSO displays
+the exposure time corresponding to the current detector settings.
+With a button click the user can calculate the saturation level for
+the given scene and detector, allowing one to set the right number of
+groups.  Similarly, a switch automatically adjusts the number of
+integrations to match the observation duration.
 
 Once a user has defined the scene and instrument settings, the `Run
 Pandeia` button will compute the full time-series observation S/N.
