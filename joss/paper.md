@@ -45,13 +45,7 @@ as expected from a JWST observations.
 
 TBD
 
-![Gen TSO graphical user interface.  Components on the left hand-side
-are user inputs to define the target properties and instrument
-configuration.  Components on the right-hand side show the ouptuts,
-including the target's FOV and spectra (stellar SED and
-transit/eclipse depth), the instrumental throughput curves, and
-time-series simulation. \label{fig:gen_tso_gui}]
-(gen_tso_gui.png){width=100%}
+![Gen TSO graphical user interface.  Components on the left hand-side are user inputs to define the target properties and instrument configuration.  Components on the right-hand side show the ouptuts, including the target's FOV and spectra (stellar SED and transit/eclipse depth), the instrumental throughput curves, and time-series simulation. \label{fig:gen_tso_gui}](gen_tso_gui){width=100%}
 
 
 # Statement of Need
